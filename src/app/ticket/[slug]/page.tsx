@@ -1,15 +1,18 @@
-import { getFriendBySlug } from '../../data/friends'
+import { friends, getFriendBySlug, } from '../../data/friends'
 import { Avatar, AvatarFallback, AvatarImage } from '../../../components/ui/avatar'
 import BackButton from '../../../components/ui/backButton';
+import { Friend } from '../../models/friend';
 
-type Props = {
-    params: { slug: string };
-  };
+  export async function generateStaticParams() {
+    return friends.map((friend: Friend) => ({
+      slug: friend.slug,
+    }));
+  }
 
-export default async function TicketPage({ params }: Props) {
-    const { slug } = await params
+export default async function TicketPage({ params }: { params: Promise<{ slug: string }> }) {
+    const slug = (await params).slug;
 
-  const friend = getFriendBySlug(Number(slug))
+  const friend = getFriendBySlug(String(slug))
 
   if (!friend) {
     return <div className="p-10 text-center text-xl">Amigo no encontrado 😢</div>
@@ -44,3 +47,6 @@ export default async function TicketPage({ params }: Props) {
     </div>
   )
 }
+
+export const dynamic = 'force-static'; // Fuerza renderizado estático
+export const revalidate = false; // Desactiva revalidación incremental

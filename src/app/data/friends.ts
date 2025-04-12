@@ -6,6 +6,6 @@ export const friends: Friend[] = friendsJson.map((friend: Friend) => ({
   slug: friend.slug,
 }));
 
-export const getFriendBySlug = (slug: number): Friend | undefined => {
+export function getFriendBySlug(slug: string): Friend | undefined {
   return friends.find((friend) => friend.slug === slug);
 };

@@ -1,5 +1,5 @@
 export interface Friend {
-    slug: number;
+    slug: string;
     name: string;
     avatar: string;
     ticket: string;

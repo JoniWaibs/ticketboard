@@ -1,66 +1,66 @@
 [
     {
-      "slug": 1,
+      "slug": "1",
       "name": "Pairo",
       "avatar": "/avatars/Pairo.jpeg",
       "ticket": "/tickets/Pairo.pdf"
     },
     {
-      "slug": 2,
+      "slug": "2",
       "name": "Melo",
       "avatar": "/avatars/Melo.jpeg",
       "ticket": "/tickets/Melo.pdf"
     },
     {
-      "slug": 3,
+      "slug": "3",
       "name": "Meme",
       "avatar": "/avatars/Meme.jpeg",
       "ticket": "/tickets/Meme.pdf"
     },
     {
-      "slug": 4,
+      "slug": "4",
       "name": "Rodri",
       "avatar": "/avatars/Rodri.jpeg",
       "ticket": ""
     },
     {
-      "slug": 5,
+      "slug": "5",
       "name": "Ferska",
       "avatar": "/avatars/Ferska.jpeg",
       "ticket": "/tickets/Ferska.pdf"
     },
     {
-      "slug": 6,
+      "slug": "6",
       "name": "Guidito",
       "avatar": "/avatars/Guidito.jpeg",
       "ticket": "/tickets/Guidito.pdf"
     },
     {
-      "slug": 7,
+      "slug": "7",
       "name": "Pablito",
       "avatar": "/avatars/Pablito.jpeg",
       "ticket": "/tickets/Pablito.pdf"
     },
     {
-        "slug": 8,
+        "slug": "8",
         "name": "Guidito",
         "avatar": "/avatars/Guidito.jpeg",
         "ticket": "/tickets/Guidito.pdf"
     },
     {
-        "slug": 9,
+        "slug": "9",
         "name": "Jota",
         "avatar": "/avatars/Jota.jpeg",
         "ticket": "/tickets/Jota.pdf"
     },
     {
-        "slug": 10,
+        "slug": "10",
         "name": "Nuno",
         "avatar": "/avatars/Nuno.jpeg",
         "ticket": "/tickets/Nuno.pdf"
     },
     {
-        "slug": 11,
+        "slug": "11",
         "name": "Peter",
         "avatar": "/avatars/Peter.jpg",
         "ticket": "/tickets/Peter.pdf"
