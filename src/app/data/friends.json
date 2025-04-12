@@ -43,27 +43,27 @@
     },
     {
         "slug": "8",
-        "name": "Guidito",
-        "avatar": "/avatars/Guidito.jpeg",
-        "ticket": "/tickets/Guidito.pdf"
-    },
-    {
-        "slug": "9",
         "name": "Jota",
         "avatar": "/avatars/Jota.jpeg",
         "ticket": "/tickets/Jota.pdf"
     },
     {
-        "slug": "10",
+        "slug": "9",
         "name": "Nuno",
         "avatar": "/avatars/Nuno.jpeg",
         "ticket": "/tickets/Nuno.pdf"
     },
     {
-        "slug": "11",
+        "slug": "10",
         "name": "Peter",
         "avatar": "/avatars/Peter.jpg",
         "ticket": "/tickets/Peter.pdf"
-    }
+    },
+    {
+      "slug": "11",
+      "name": "Nico",
+      "avatar": "/avatars/Nico.jpg",
+      "ticket": "/tickets/Nico.pdf"
+  }
 ]
   
