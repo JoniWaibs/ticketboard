@@ -25,7 +25,6 @@ export default async function TicketPage({ params }: { params: Promise<{ slug: s
         <AvatarFallback className="text-lg">{friend.name.charAt(0)}</AvatarFallback>
       </Avatar>
 
-        
       <h1 className="text-2xl font-bold mb-2">{friend.name}</h1>
 
       {

@@ -20,7 +20,7 @@ export default function Home() {
           {friends.map((friend: Friend) => (
             <Card
               key={friend.slug}
-              className="overflow-hidden shadow-md hover:shadow-lg transition-shadow aspect-square flex flex-col p-0"
+              className="overflow-hidden gap-2 shadow-md hover:shadow-lg transition-shadow aspect-square flex flex-col p-0"
             >
               <CardHeader className=" flex-1 flex flex-col items-center justify-center text-center">
                 <Avatar className="h-24 w-24 mb-2 border-2 border-blue-100">
@@ -32,9 +32,9 @@ export default function Home() {
                 </div>
               </CardHeader>
 
-              <CardContent className="p-2 pt-0 mt-auto">
+              <CardContent className="p-2 pt-0">
                 <Link href={`/ticket/${friend.slug}`}>
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700 py-1 text-xs text-white">
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700 py-1 text-xs text-white p-2">
                     <Download className="h-3 w-3 mr-1" />
                     Descargar ticket de bus
                   </Button>
