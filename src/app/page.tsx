@@ -18,7 +18,7 @@ export default function Home() {
 
         <h4 className="text-lg font-bold text-center">🗓️ Fecha: 01-05-2025</h4>
         <h4 className="text-lg font-bold text-center">🕒 Hora salida: 18:00</h4>
-        <h4 className="text-lg font-bold text-center mb-8">🕒 Hora llegada: 20:00</h4>
+        <h4 className="text-lg font-bold text-center mb-8">🕒 Hora llegada: 20:40</h4>
         <div className="grid grid-cols-2 gap-3">
           {friends.map((friend: Friend) => (
             <Card
