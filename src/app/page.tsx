@@ -14,13 +14,16 @@ export default function Home() {
       <div className="max-w-[100%] mx-auto">
         <h1 className="text-2xl font-bold py-4 text-center">🎟️ Tickets del Viaje</h1>
 
-        <h3 className="text-lg font-bold text-center py-4">🚌 desde SM de Tucuman a Tafi del Valle</h3>
+        <h3 className="text-lg font-bold text-center">🚌 desde SM de Tucuman a Tafi del Valle</h3>
 
+        <h4 className="text-lg font-bold text-center">🗓️ Fecha: 01-05-2025</h4>
+        <h4 className="text-lg font-bold text-center">🕒 Hora salida: 18:00</h4>
+        <h4 className="text-lg font-bold text-center mb-8">🕒 Hora llegada: 20:00</h4>
         <div className="grid grid-cols-2 gap-3">
           {friends.map((friend: Friend) => (
             <Card
               key={friend.slug}
-              className="gap-1 shadow-md hover:shadow-lg transition-shadow aspect-square flex flex-col p-0"
+              className="gap-1 shadow-md border-1 border-gray-200 flex flex-col p-0 pt-2"
             >
               <CardHeader className=" flex-1 flex flex-col items-center justify-center text-center">
                 <Avatar className="h-24 w-24 mb-2 border-2 border-blue-100">

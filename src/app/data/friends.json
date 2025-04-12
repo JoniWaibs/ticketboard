@@ -64,6 +64,12 @@
       "name": "Nico",
       "avatar": "/avatars/Nico.jpeg",
       "ticket": "/tickets/Nico.pdf"
-  }
+  },
+  {
+    "slug": "12",
+    "name": "Giani",
+    "avatar": "/avatars/Giani.jpeg",
+    "ticket": "/tickets/Giani.pdf"
+}
 ]
   
