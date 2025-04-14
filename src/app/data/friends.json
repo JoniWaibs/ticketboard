@@ -8,7 +8,7 @@
     {
       "slug": "2",
       "name": "Melo",
-      "avatar": "/avatars/Melo.jpeg",
+      "avatar": "/avatars/Melo.jpg",
       "ticket": "/tickets/Melo.pdf"
     },
     {
@@ -62,7 +62,7 @@
     {
       "slug": "11",
       "name": "Nico",
-      "avatar": "/avatars/Nico.jpeg",
+      "avatar": "/avatars/Nico.jpg",
       "ticket": "/tickets/Nico.pdf"
   },
   {
@@ -70,6 +70,12 @@
     "name": "Giani",
     "avatar": "/avatars/Giani.jpeg",
     "ticket": "/tickets/Giani.pdf"
-}
+  },
+  {
+    "slug": "13",
+    "name": "Wicho",
+    "avatar": "/avatars/Wicho.jpg",
+    "ticket": "/tickets/Wicho.pdf"
+  }
 ]
   

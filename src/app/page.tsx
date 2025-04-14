@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 p-3">
       <div className="max-w-[100%] mx-auto">
-        <h1 className="text-2xl font-bold py-4 text-center">🎟️ Tickets del Viaje</h1>
+        <h1 className="text-2xl font-bold py-4 text-center">🎟️ Pasajes del Viaje</h1>
 
         <h3 className="text-lg font-bold text-center">🚌 desde SM de Tucuman a Tafi del Valle</h3>
 

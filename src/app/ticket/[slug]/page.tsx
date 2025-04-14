@@ -2,6 +2,9 @@ import { friends, getFriendBySlug, } from '../../data/friends'
 import { Avatar, AvatarFallback, AvatarImage } from '../../../components/ui/avatar'
 import BackButton from '../../../components/ui/backButton';
 import { Friend } from '../../models/friend';
+import { Download } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
   export async function generateStaticParams() {
     return friends.map((friend: Friend) => ({
@@ -25,23 +28,20 @@ export default async function TicketPage({ params }: { params: Promise<{ slug: s
         <AvatarFallback className="text-lg">{friend.name.charAt(0)}</AvatarFallback>
       </Avatar>
 
-      <h1 className="text-2xl font-bold mb-2">{friend.name}</h1>
+      <h1 className="text-3xl font-bold mb-2">{friend.name}</h1>
 
       {
         friend.ticket ? (
-            <a
-            href={friend.ticket}
-            download
-            className="mt-4 bg-blue-600 text-white px-6 py-3 rounded-full text-lg shadow hover:bg-blue-700 transition"
-          >
-            📥 Descargar Ticket
-          </a>
+          <Link href={friend.ticket} download={true}>
+          <Button className="w-full bg-blue-600 hover:bg-blue-700 py-1 text-xs text-white px-2">
+            <Download className="h-3 w-3 mr-1" />
+            Descargar pasaje
+          </Button>
+        </Link>
         ) : (
             <p className="mt-4 text-gray-500">Se cagó todo y no tiene ticket 😢</p>
         )
       }
-     
-
       <BackButton />
     </div>
   )
