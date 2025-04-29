@@ -76,6 +76,12 @@
     "name": "Wicho",
     "avatar": "/avatars/Wicho.jpg",
     "ticket": "/tickets/Wicho.pdf"
+  },
+  {
+    "slug": "14",
+    "name": "Juan Cruz",
+    "avatar": "",
+    "ticket": "/tickets/JC.pdf"
   }
 ]
   
